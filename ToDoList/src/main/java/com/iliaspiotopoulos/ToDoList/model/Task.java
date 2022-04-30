@@ -1,19 +1,26 @@
 package com.iliaspiotopoulos.ToDoList.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.time.LocalDate;
 import java.util.UUID;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
+@Entity
 public class Task
 {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
     private Integer priority;
 
     private String description;
 
-    @DateTimeFormat(pattern = "dd-MM-yyyy")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate date;
 
     public Task() {}
