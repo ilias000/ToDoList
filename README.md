@@ -1,5 +1,5 @@
-# TODO List
-### This is a simple TODO List application.  
+# ToDo List
+### This is a simple ToDo List application.  
 ### The application is developed with Spring Boot and Freemarker.
 ### Application features:
 - Display all tasks from the list.
