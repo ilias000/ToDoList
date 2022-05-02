@@ -1,10 +1,10 @@
-package com.iliaspiotopoulos.ToDoList.controller;
+package com.iliaspiotopoulos.todo_list.controller;
 
 import java.util.List;
 import java.util.UUID;
 
-import com.iliaspiotopoulos.ToDoList.model.Task;
-import com.iliaspiotopoulos.ToDoList.repository.TaskRepository;
+import com.iliaspiotopoulos.todo_list.model.Task;
+import com.iliaspiotopoulos.todo_list.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

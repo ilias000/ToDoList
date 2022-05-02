@@ -1,4 +1,4 @@
-package com.iliaspiotopoulos.ToDoList;
+package com.iliaspiotopoulos.todo_list;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

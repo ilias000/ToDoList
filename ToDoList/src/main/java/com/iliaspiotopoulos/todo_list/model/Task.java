@@ -1,4 +1,4 @@
-package com.iliaspiotopoulos.ToDoList.model;
+package com.iliaspiotopoulos.todo_list.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

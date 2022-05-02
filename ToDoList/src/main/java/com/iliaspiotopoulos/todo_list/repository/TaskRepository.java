@@ -1,9 +1,9 @@
-package com.iliaspiotopoulos.ToDoList.repository;
+package com.iliaspiotopoulos.todo_list.repository;
 
 import java.util.List;
 import java.util.UUID;
 
-import com.iliaspiotopoulos.ToDoList.model.Task;
+import com.iliaspiotopoulos.todo_list.model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
